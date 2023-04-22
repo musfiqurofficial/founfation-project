@@ -8,6 +8,7 @@ import Tour from "../pages/tour/Tour";
 import Stake from "../pages/stake/Stake";
 import ServerProgramm from "../pages/serverProgram/ServerProgramm";
 import Analytics from "../pages/analytics/Analytics";
+import Faq from "../pages/Faq/Faq";
 
 export const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
       {
         path: "/tour-de-sun",
         element: <Tour />,
+      },
+      {
+        path: "/faq",
+        element: <Faq />,
       },
     ],
   },
