@@ -28,3 +28,12 @@
     rgba(0, 0, 0, 1) 100%
   );
 }
+
+.faq-style {
+  color: rgb(247, 207, 32);
+  color: linear-gradient(
+    225deg,
+    rgba(247, 207, 32, 1) 5%,
+    rgba(255, 136, 77, 1) 94%
+  );
+}
