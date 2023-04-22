@@ -9,7 +9,7 @@ export const TourStep = () => {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="">
         <div className="lg:py-6 lg:pr-16">
-          <div className="grid grid-cols-3 ">
+          <div className="grid grid-cols-1 lg:grid-cols-3 ">
             <div className="border border-[#dedff8] rounded-lg text-center p-5">
               <h3 className="text-[26px] font-semibold text-start leading-tight mb-8">
                 Create your validator identity keys for Testnet and Mainnet Beta
@@ -37,7 +37,7 @@ export const TourStep = () => {
             </div>
             <div></div>
           </div>
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-1 lg:grid-cols-3">
             <div></div>
             <div className="flex flex-col items-center mr-4">
               <div>
@@ -61,7 +61,7 @@ export const TourStep = () => {
           </div>
 
           {/* card 3 and 4 */}
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-1 lg:grid-cols-3">
             <div className="border border-[#dedff8] rounded-lg text-center p-5">
               <h3 className="text-[26px] font-semibold text-start leading-tight mb-8">
                 Start your Testnet validator
@@ -83,7 +83,7 @@ export const TourStep = () => {
             </div>
             <div></div>
           </div>
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-1 lg:grid-cols-3">
             <div></div>
             <div className="flex flex-col items-center mr-4">
               <div>
@@ -107,7 +107,7 @@ export const TourStep = () => {
             </div>
           </div>
           {/* card 5 and 6 */}
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-1 lg:grid-cols-3">
             <div className="border border-[#dedff8] rounded-lg text-center p-5">
               <h3 className="text-[26px] font-semibold text-start leading-tight ">
                 Get added to Testnet stake bot

@@ -4,7 +4,7 @@ const StakePromotes = () => {
   return (
     <div>
       <div className="px-4 py-5 sm:py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-5">
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid sm:grid-cols-2 gap-10">
           <div>
             <h1 className="text-[40px] font-[600] leading-none mb-5">
               Promotes Decentralization

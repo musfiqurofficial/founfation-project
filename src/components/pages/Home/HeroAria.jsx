@@ -4,14 +4,14 @@ import { BsArrowRight } from "react-icons/bs";
 
 const HeroAria = () => {
   return (
-    <div className="-mb-20">
-      <div className="px-4 py-5 sm:pt-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-5 h-auto sm:h-screen">
-        <div className="grid grid-cols-1 sm:grid-cols-2 justify-center items-center gap-0">
-          <div className="mr-0 sm:mr-14 text-center sm:text-start">
-            <h1 className="text-[50px] sm:text-[96px] font-[600] leading-none">
+    <div className="lg:mb-20 2xl:-mb-20">
+      <div className="px-4 py-5 sm:pt-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-14 xl:px-14 2xl:px-5 h-auto sm:h-screen">
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-0">
+          <div className="mr-0 sm:mr-14 text-center lg:text-start">
+            <h1 className="text-[50px] lg:text-[90px] 2xl:text-[96px] font-[600] leading-none">
               The Solana Foundation
             </h1>
-            <h4 className="text-[20px] sm:text-[32px] leading-snug my-10">
+            <h4 className="text-[20px] lg:text-[32px] leading-snug my-10">
               The Solana Foundation is a non-profit organization headquartered
               in Zug, Switzerland, dedicated to the decentralization, growth,
               and security of the Solana network.

@@ -42,12 +42,12 @@ const HomeCard = () => {
   return (
     <div className="bg-[#ffffffe9]">
       <div className="px-4 py-5 sm:py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-5">
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {cardData &&
             cardData.map((data) => (
               <>
                 <div className="p-8 flex flex-col justify-between rounded-xl hover:drop-shadow-lg" style={{ backgroundColor: data.color }}>
-                  <h1 className="text-[50px] font-[700] ">{data.name}</h1>
+                  <h1 className="text-[32px] sm:text-[50px] font-[700] ">{data.name}</h1>
                   <p className="text-[18px] mt-5 mb-10">{data.details}</p>
                   <Link to={data.buttonLink}>
                     <button className="border text-[#000] border-[#000] hover:border-none hover:bg-white px-5 py-3 text-[20px] font-semibold transition ease-in-out hover:-translate-y-1 hover:scale-90 duration-100 rounded-lg">{data.buttonText}</button>

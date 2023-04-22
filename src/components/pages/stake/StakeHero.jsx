@@ -1,12 +1,12 @@
 const StakeHero = () => {
   return (
-    <div className="my-20">
-      <div className="px-4 py-5 sm:py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-5 bg-gradient rounded-xl shadow-2xl">
-        <div className="flex justify-around items-center text-white p-8 gap-x-10">
+    <div className="sm:my-20 mx-4">
+      <div className="px-4 py-5 sm:py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg 2xl:lg:max-w-screen-xl md:px-24 lg:px-10 bg-gradient rounded-xl shadow-2xl">
+        <div className="flex-none sm:flex justify-around items-center text-white p-8 gap-x-10">
           <h1 className="text-[56px] font-bold leading-none">
             Stake <br /> Pools
           </h1>
-          <p className="text-lg">
+          <p className="text-lg mt-5 sm:mt-0">
             On Solana, stake pools are a collection of one or more validator
             nodes. In this way, delegators can stake to many validators at once,
             instead of staking to just one validator. In most instances,

@@ -8,9 +8,9 @@ const DelegationStay = () => {
       <div className="px-4 py-5 sm:py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-5">
         <h1>Stay in the loop</h1>
         <hr className="max-w-screen-lg mx-auto border-t my-10 border-gray-400" />
-        <div className="grid grid-cols-2 justify-between items-center gap-x-10 mb-14">
+        <div className="grid lg:grid-cols-2 justify-between items-center gap-x-10 mb-14">
           <div className="p-8 rounded-lg shadow bg-[#f7f7f7f7]">
-            <img className="" src={IMG1} alt="" />
+            <img className="mb-10 sm:mb-0" src={IMG1} alt="" />
           </div>
           <div>
             <h3 className="text-[28px] font-semibold mb-5">
@@ -27,7 +27,7 @@ const DelegationStay = () => {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-2 justify-between items-center gap-x-10 mb-14">
+        <div className="lg:grid lg:grid-cols-2 flex flex-col-reverse justify-between items-center gap-x-10 mb-14">
           <div>
             <h3 className="text-[28px] font-semibold mb-5">
               Learn more about the Foundation Program
@@ -42,12 +42,12 @@ const DelegationStay = () => {
             </a>
           </div>
           <div className="p-8 rounded-lg shadow bg-[#f7f7f7f7]">
-            <img className="w-auto h-60 mx-auto" src={IMG2} alt="" />
+            <img className="w-auto h-60 mx-auto mb-10 sm:mb-0" src={IMG2} alt="" />
           </div>
         </div>
-        <div className="grid grid-cols-2 justify-between items-center gap-x-10 mb-14">
+        <div className="grid lg:grid-cols-2 justify-between items-center gap-x-10 mb-14">
           <div className="p-8 rounded-lg shadow bg-[#f7f7f7f7]">
-            <img className="w-auto h-60 mx-auto" src={IMG3} alt="" />
+            <img className="w-auto h-60 mx-auto mb-10 sm:mb-0" src={IMG3} alt="" />
           </div>
           <div>
             <h3 className="text-[28px] font-semibold mb-5">

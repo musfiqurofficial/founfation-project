@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bg-[#444bcb]">
       <div className="px-4 py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 text-white">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 text-white text-center sm:text-start">
           <div>
             <Link to="/" className="">
               <img className="" src={Logo} alt="" />

@@ -17,7 +17,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/about"
-          className="hover:bg-[#F7F7F7F7] hover:text-black px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+          className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
           ABOUT
@@ -26,7 +26,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/delegation-program"
-          className="hover:bg-[#F7F7F7F7] hover:text-black px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+          className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
           DELEGATION PROGRAM
@@ -35,7 +35,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/analytics"
-          className="hover:bg-[#F7F7F7F7] hover:text-black px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+          className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
           GRANTS
@@ -44,7 +44,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/server-program"
-          className="hover:bg-[#F7F7F7F7] hover:text-black px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+          className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
           SERVER PROGRAM
@@ -53,7 +53,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/stake-pools"
-          className="hover:bg-[#F7F7F7F7] hover:text-black px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+          className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
           STAKE POOLS
@@ -62,7 +62,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/tour-de-sun"
-          className="hover:bg-[#F7F7F7F7] hover:text-black px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+          className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
           TOUR DE SUN
@@ -70,10 +70,10 @@ const Navbar = () => {
       </li>
       <li className="flex justify-center items-center gap-2">
         <button>
-          <CiLight />
+          <CiLight className="hover:fill-[#444bcb] w-5 h-5" />
         </button>
         <button>
-          <CiDark />
+          <CiDark className="hover:fill-[#444bcb] w-5 h-5" />
         </button>
       </li>
     </>

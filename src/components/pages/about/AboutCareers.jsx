@@ -5,7 +5,7 @@ const AboutCareers = () => {
         <button className="px-3 py-0 rounded-full bg-[#f2f2f2f7] border border-[#e4e4e4f7] cursor-text">
           CAREERS
         </button>
-        <h1 className="text-[100px] font-semibold leading-tight">
+        <h1 className="text-[52px] lg:text-[100px] font-semibold leading-tight">
           Solana is growing. <br />
           Grow with us.
         </h1>

@@ -3,8 +3,8 @@ const AboutOpportunity = () => {
   return (
     <div className="mb-10">
       <div className="px-4 sm:py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-5">
-        <div className="grid grid-cols-2 justify-between items-center gap-x-10 gap-y-16">
-          <div className="bg-gradient p-10 text-white text-[18px] rounded-xl">
+        <div className="grid lg:grid-cols-2 justify-between items-center gap-x-10 gap-y-16">
+          <div className="bg-gradient p-10 text-white text-[18px] rounded-xl mt-5 sm:mt-0">
             <div className="flex gap-2 mb-10">
               <div className="p-2 rounded-full bg-[#ED6A5E]"></div>
               <div className="p-2 rounded-full bg-[#F5BE4F]"></div>

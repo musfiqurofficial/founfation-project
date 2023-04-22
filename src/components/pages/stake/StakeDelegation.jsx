@@ -88,8 +88,8 @@ const StakeDelegation = () => {
     <div>
       <div className="px-4 py-5 sm:py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-5">
         <div>
-          <ul className="flex item-center justify-center">{menu}</ul>
-          <div className="grid grid-cols-2 gap-x-8 gap-y-14 mt-10">
+          <ul className="flex item-center justify-center text-xs">{menu}</ul>
+          <div className="grid sm:grid-cols-2 gap-x-8 gap-y-14 mt-10">
             <div>
               <div className="bg-[#0e0d0d] p-3 rounded-md mb-2">
                 <img className="w-3/4 mx-auto" src={Daopool} alt="" />

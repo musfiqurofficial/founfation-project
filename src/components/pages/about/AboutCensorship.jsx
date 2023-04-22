@@ -7,9 +7,9 @@ const AboutCensorship = () => {
         <h1 className="text-[56px] font-bold leading-none mb-10">
           What is censorship <br /> resistance?
         </h1>
-        <div className=" max-w-screen-lg mx-auto grid grid-cols-2 gap-8 ">
-          <div className="flex flex-col justify-between">
-            <article>
+        <div className="sm:max-w-screen-lg mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8 ">
+          <div className="hidden sm:flex flex-col justify-between ">
+            <article className="">
               A core feature of the Solana network is the ability for everyone
               to have equal access to all information written to the blockchain
               ledger. Similarly, anyone should have equal and fair access to
@@ -27,7 +27,7 @@ const AboutCensorship = () => {
               malicious activity from one or more entities on the network
             </article>
           </div>
-          <div className="flex flex-col justify-between">
+          <div className="flex flex-col justify-between text-center sm:text-start">
             <article>
               A common metric for quantifying censorship resistance is the
               superminority. The superminority refers to the minimum number of
