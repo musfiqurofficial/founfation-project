@@ -31,7 +31,7 @@ export default function ModalUI() {
           </Transition.Child>
 
           <div className="fixed inset-0 overflow-y-auto">
-            <div className="flex min-h-full items-center justify-center p-4 text-center">
+            <div className="flex  min-h-full items-center justify-center p-4 text-center">
               <Transition.Child
                 as={Fragment}
                 enter="ease-out duration-300"
@@ -41,7 +41,7 @@ export default function ModalUI() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-4xl transform overflow-hidden rounded-2xl bg-white p-20 text-left align-middle shadow-xl transition-all">
+                <Dialog.Panel className="w-full max-w-xl lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl transform overflow-hidden rounded-2xl bg-white p-8 lg:p-10  xl:p-16  2xl:p-20 text-left align-middle shadow-xl transition-all">
                   <button onClick={closeModal}>
                     <GrClose className="absolute right-10 top-10 w-6 h-6" />
                   </button>
@@ -52,7 +52,8 @@ export default function ModalUI() {
                         as="h3"
                         className="text-4xl font-medium text-gray-900"
                       >
-                        Take Part in the <br /> First Ever <span className="faq-style">Injective</span> <br />{" "}
+                        Take Part in the <br /> First Ever{" "}
+                        <span className="faq-style">Injective</span> <br />{" "}
                         <span className="faq-style">Virtual Hackathon</span>
                       </Dialog.Title>
                       <div className="my-10">

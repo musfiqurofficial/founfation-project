@@ -8,7 +8,7 @@ const HeroAria = () => {
       <div className="py-16 lg:py-20 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-0">
           <div className="mr-0 lg:mr-14 text-center lg:text-start">
-            <h1 className="text-[50px] lg:text-[90px] 2xl:text-[96px] font-[600] leading-none">
+            <h1 className="text-[50px] lg:text-[80px] xl:text-[80px] 2xl:text-[96px] font-[600] leading-none">
               The Solana Foundation
             </h1>
             <h4 className="text-[18px] lg:text-[28px] leading-snug my-6">
