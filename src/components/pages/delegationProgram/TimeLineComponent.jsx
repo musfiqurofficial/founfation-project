@@ -122,7 +122,7 @@ const TimeLineComponent = () => {
           Learn How
         </button>
         <div className="bg-[#f7f7f7f7] rounded-lg mb-3">
-          <img src={Img4} className="mt-8 p-10" alt="" />
+          <img src={Img4} className="mt-8 p-10 " alt="" />
         </div>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -151,7 +151,7 @@ const TimeLineComponent = () => {
           </button>
         </a>
         <div className="bg-[#f7f7f7f7] rounded-lg mb-3">
-          <img src={Img5} className="mt-8 p-10" alt="" />
+          <img src={Img5} className="mt-8 p-10 h-80" alt="" />
         </div>
       </VerticalTimelineElement>
       <VerticalTimelineElement
