@@ -3,6 +3,7 @@ import DelegationQuestions from "./DelegationQuestions";
 import DelegationText from "./DelegationText";
 import { Delegationstap } from "./Delegationstep";
 import DelegationStay from "./DelegtionStay";
+("./VerticalTimeLine/VerticalTimelineElement");
 
 const DelegationProgram = () => {
   return (
