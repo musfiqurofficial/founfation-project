@@ -50,10 +50,6 @@ const Item = ({ title, children }) => {
 };
 
 const StakeDelegation = () => {
-  let activeStyle = {
-    color: "#444bcb",
-    fontWeight: "600",
-  };
 
   const [showHello, setShowHello] = useState(true);
 
@@ -63,32 +59,26 @@ const StakeDelegation = () => {
 
   const menu = (
     <>
-      <li>
-        <NavLink
-          className="hover:text-black px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-          style={({ isActive }) => (isActive ? activeStyle : undefined)}
-          onClick={() => handleMenuClick(true)}
-        >
-          Delegation strategy
-        </NavLink>
+      <li
+        className="hover:text-[#444bcb] text-xs sm:text-xl font-semibold "
+        onClick={() => handleMenuClick(true)}
+      >
+        Delegation strategy
       </li>
-      <li>
-        <NavLink
-          className="hover:text-black px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-          style={({ isActive }) => (isActive ? activeStyle : undefined)}
-          onClick={() => handleMenuClick(false)}
-        >
-          How to get a delegation
-        </NavLink>
+      <li
+        className="hover:text-[#444bcb] text-xs sm:text-xl font-semibold"
+        onClick={() => handleMenuClick(false)}
+      >
+        How to get a delegation
       </li>
     </>
   );
 
   return (
-    <div>
-      <div className="px-4 py-5 sm:py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-5">
+    <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0">
+      <div className="py-16 lg:py-20 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl">
         <div>
-          <ul className="flex item-center justify-center text-xs">{menu}</ul>
+          <ul className="flex item-center justify-center gap-5">{menu}</ul>
           <div className="grid sm:grid-cols-2 gap-x-8 gap-y-14 mt-10">
             <div>
               <div className="bg-[#0e0d0d] p-3 rounded-md mb-2">

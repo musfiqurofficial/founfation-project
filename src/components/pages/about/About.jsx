@@ -11,9 +11,9 @@ const About = () => {
       <AboutHero />
       <div className=" bg-[#ffffffe7]">
         <AboutCensorship />
-        <hr className="max-w-screen-lg mx-auto border-t-2 border-gray-400" />
+        <hr className=" max-w-screen-lg mx-auto border-t border-gray-200" />
         <AboutCore />
-        <hr className="max-w-screen-lg mx-auto border-t-2 border-gray-400" />
+        <hr className="max-w-screen-lg mx-auto border-t border-gray-200" />
         <AboutOpportunity />
         <AboutCareers />
       </div>

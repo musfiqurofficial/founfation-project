@@ -5,28 +5,44 @@ const RequestforProposals = () => {
   return (
     <div>
       <div>
-        <h1 className="text-[50px] font-bold">Request for Proposals</h1>
-        <div className="flex mt-7 gap-5">
+        <h1 className="text-[32px] sm:text-[44px] font-semibold leading-tight">
+          Request for Proposals
+        </h1>
+        <div className="flex items-start mt-5 gap-x-5">
           <div>
-            <img src={arrow} className="w-[150px] h-auto" />
+            <img src={arrow} className="w-16 h-auto" />
           </div>
           <div>
-            <p className="text-[20px]">
+            <p className="">
               Below are a few categories of projects we’re interested in
               funding. You can also see a running list of specific project ideas{" "}
-              <a href="https://airtable.com/shrDbfJ1wktQ7pB6f/tbli2ERM3sdhyHJYB">
+              <a
+                className="text-[#9111f1]"
+                target="_blank"
+                rel="noreferrer"
+                href="https://airtable.com/shrDbfJ1wktQ7pB6f/tbli2ERM3sdhyHJYB"
+              >
                 in our active RFP database.
               </a>
             </p>
             <div>
-             <p className="text-[20px]"><li>Censorship Resistance</li></p>
-             <p className="text-[20px]"><li>DAO Tooling</li></p>
-             <p className="text-[20px]"><li>Developer Tooling</li></p>
-             <p className="text-[20px]"><li>Education</li></p>
-             <p className="text-[20px]"><li>Payments / Solana Pay</li></p>
-             <p className="text-[20px]"><li>Financial Inclusion</li></p>
-             <p className="text-[20px]"><li>Climate Change</li></p>
-             <p className="text-[20px]"><li>Academic Research</li></p>
+              <ul className="list-disc list-inside mt-5">
+                <li>Censorship Resistance</li>
+
+                <li>DAO Tooling</li>
+
+                <li>Developer Tooling</li>
+
+                <li>Education</li>
+
+                <li>Payments / Solana Pay</li>
+
+                <li>Financial Inclusion</li>
+
+                <li>Climate Change</li>
+
+                <li>Academic Research</li>
+              </ul>
             </div>
           </div>
         </div>

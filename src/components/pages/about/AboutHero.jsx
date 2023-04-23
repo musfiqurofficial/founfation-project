@@ -1,10 +1,10 @@
 const AboutHero = () => {
   return (
-    <div className="sm:my-20 mx-4">
-      <div className="px-4 py-5 sm:py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg 2xl:lg:max-w-screen-xl md:px-24 lg:px-10 bg-gradient rounded-xl shadow-2xl">
-        <div className="flex-none sm:flex justify-around items-center gap-10 text-white">
-          <h1 className="text-[56px] font-bold leading-none">Mission <br /> Statement</h1>
-          <p className="text-lg mt-5 sm:mt-0">
+    <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0 my-3 sm:my-10">
+      <div className="px-5 sm:px-10 py-16 lg:py-20 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl bg-gradient rounded-xl shadow-2xl">
+        <div className="flex-none lg:flex justify-around items-center gap-10 text-white text-center lg:text-start">
+          <h1 className="text-[32px] md:text-[44px] lg:text-[56px] font-bold leading-none">Mission Statement</h1>
+          <p className="md:text-lg lg:text-[25px] mt-5 lg:mt-0">
             Help build the Solana protocol into the most censorship resistant
             network in the world.
           </p>

@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 const TourHero = () => {
   return (
-    <div className="sm:mt-20 mb-10 mx-5">
-      <div className="px-4 py-5 sm:py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg 2xl:lg:max-w-screen-xl md:px-24 lg:px-10 bg-gradient rounded-xl shadow-2xl">
-        <div className="flex-none sm:flex justify-around items-center text-white">
-          <h1 className="text-[56px] font-semibold leading-none">
+    <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0 my-3 sm:my-10">
+      <div className="px-5 sm:px-10 py-16 lg:py-20 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl bg-gradient rounded-xl shadow-2xl">
+        <div className="lex-none lg:flex justify-around items-center gap-10 text-white text-center lg:text-start">
+          <h1 className="text-[32px] md:text-[44px] lg:text-[56px] font-bold leading-none">
           Tour de Sun '22
           </h1>
           <div className="text-lg flex flex-col gap-2 mt-8 sm:mt-0">

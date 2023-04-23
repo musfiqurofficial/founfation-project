@@ -1,4 +1,3 @@
-import React from 'react';
 import AnalyticsHero from './AnalyticsHero';
 import AnalyticBody from './AnalyticBody';
 

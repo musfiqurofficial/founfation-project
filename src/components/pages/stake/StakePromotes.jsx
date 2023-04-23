@@ -2,8 +2,8 @@ import { ImArrowDownRight2 } from "react-icons/im";
 
 const StakePromotes = () => {
   return (
-    <div>
-      <div className="px-4 py-5 sm:py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-5">
+    <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0">
+      <div className="py-16 lg:py-20 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl">
         <div className="grid sm:grid-cols-2 gap-10">
           <div>
             <h1 className="text-[40px] font-[600] leading-none mb-5">
@@ -45,7 +45,7 @@ const StakePromotes = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="border text-[#000] border-[#000] hover:bg-white px-5 py-3 text-[20px] font-semibold transition ease-in-out hover:-translate-y-1 hover:scale-90 duration-100 rounded-lg  w-full">
+              <button className="border text-[#000] border-[#000] hover:bg-white px-5 py-3 text-[20px] font-semibold rounded-lg  w-full">
                 Start a stake pool
               </button>
             </a>
@@ -64,7 +64,7 @@ const StakePromotes = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="border text-[#000] border-[#000] hover:bg-white px-5 py-3 text-[20px] font-semibold transition ease-in-out hover:-translate-y-1 hover:scale-90 duration-100 rounded-lg w-full mb-3">
+              <button className="border text-[#000] border-[#000] hover:bg-white px-5 py-3 text-[20px] font-semibold rounded-lg w-full mb-3">
                 Validators.app
               </button>
             </a>
@@ -73,19 +73,19 @@ const StakePromotes = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="border text-[#000] border-[#000] hover:bg-white px-5 py-3 text-[20px] font-semibold transition ease-in-out hover:-translate-y-1 hover:scale-90 duration-100 rounded-lg  w-full mb-3">
+              <button className="border text-[#000] border-[#000] hover:bg-white px-5 py-3 text-[20px] font-semibold rounded-lg  w-full mb-3">
                 Solana Compass
               </button>
             </a>
             <a href="https://stakesolana.app/" target="_blank" rel="noreferrer">
-              <button className="border text-[#000] border-[#000] hover:bg-white px-5 py-3 text-[20px] font-semibold transition ease-in-out hover:-translate-y-1 hover:scale-90 duration-100 rounded-lg  w-full ">
+              <button className="border text-[#000] border-[#000] hover:bg-white px-5 py-3 text-[20px] font-semibold rounded-lg  w-full ">
                 Stake Solana
               </button>
             </a>
           </div>
         </div>
-        <div>
-          <h1 className="text-[40px] font-[600] leading-none my-10">
+        <div className="">
+          <h1 className="text-[28px] sm:text-[40px] font-[600] leading-none my-10">
             Current stake pools <br /> on Solana
           </h1>
           <div className="flex justify-between items-start gap-10">
