@@ -5,7 +5,7 @@ const AnalyticBody = () => {
     <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0 ">
       <div className="py-16 lg:py-20 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl">
         <div className="grid lg:grid-cols-3 md:grid-cols-1 grid-cols-1">
-          <div className="bg-white p-10">
+          <div className="p-10">
             <div className="sticky top-0">
               <h1 className="text-[32px] sm:text-[50px] font-semibold leading-tight">
                 Table of Contents

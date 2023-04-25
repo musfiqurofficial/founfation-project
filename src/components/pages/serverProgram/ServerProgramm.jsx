@@ -5,7 +5,7 @@ const ServerProgramm = () => {
   return (
     <div>
       <ServerHero></ServerHero>
-      <div className=" bg-[#ffffffe7]">
+      <div className=" bg-[#ffffffe7] dark:bg-black">
         <AboutProgramm></AboutProgramm>
       </div>
     </div>

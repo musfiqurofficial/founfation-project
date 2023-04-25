@@ -41,16 +41,16 @@ export default function ModalUI() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-xl lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl transform overflow-hidden rounded-2xl bg-white p-8 lg:p-10  xl:p-16  2xl:p-20 text-left align-middle shadow-xl transition-all">
+                <Dialog.Panel className="w-full max-w-xl lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl transform overflow-hidden rounded-2xl bg-white dark:bg-black p-8 lg:p-10  xl:p-16  2xl:p-20 text-left align-middle shadow-xl transition-all">
                   <button onClick={closeModal}>
-                    <GrClose className="absolute right-10 top-10 w-6 h-6" />
+                    <GrClose className="absolute right-10 top-10 w-6 h-6 dark:bg-gray-400" />
                   </button>
 
                   <div className="flex grid-cols-2">
                     <div>
                       <Dialog.Title
                         as="h3"
-                        className="text-4xl font-medium text-gray-900"
+                        className="text-4xl font-medium text-gray-900 dark:text-gray-200"
                       >
                         Take Part in the <br /> First Ever{" "}
                         <span className="faq-style">Injective</span> <br />{" "}

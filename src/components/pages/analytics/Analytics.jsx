@@ -5,7 +5,7 @@ const Analytics = () => {
     return (
         <div>
             <AnalyticsHero></AnalyticsHero>
-            <div className=' bg-[#ffffffe7]'>
+            <div className=' bg-[#ffffffe7] dark:bg-black'>
             <AnalyticBody></AnalyticBody>
             </div>
         </div>

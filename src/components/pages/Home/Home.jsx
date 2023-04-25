@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <ModalUI />
       <HeroAria />
-      <div className="bg-[#ffffffe9] ">
+      <div className="bg-[#ffffffe9] dark:bg-black">
         <HomeCard />
         <HomeCensorship />
       </div>

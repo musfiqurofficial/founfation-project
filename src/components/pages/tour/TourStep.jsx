@@ -1,10 +1,4 @@
-import { Link } from "react-router-dom";
-import Img1 from "../../../assets/1.webp";
-import Img2 from "../../../assets/2.webp";
-import Img3 from "../../../assets/3.webp";
-import Img4 from "../../../assets/5.webp";
-import Img5 from "../../../assets/8.webp";
-import AR from "../../../assets/ar.png";
+
 import TourTimeLine from "./TureTimeLine";
 
 export const TourStep = () => {

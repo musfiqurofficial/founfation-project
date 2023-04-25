@@ -9,14 +9,14 @@ const Item = ({ title, children }) => {
         type="button"
         aria-label="Open item"
         title="Open item"
-        className="flex items-center justify-between w-full p-4 focus:outline-none bg-[#F2F2F6]"
+        className="flex items-center justify-between w-full p-4 focus:outline-none bg-[#F2F2F6] dark:bg-[#4b4b4b]"
         onClick={() => setIsOpen(!isOpen)}
       >
         <p className="text-lg font-medium">{title}</p>
 
         <svg
           viewBox="0 0 24 24"
-          className={`w-4 text-gray-700 transition-transform duration-200 ${
+          className={`w-4 text-gray-700 dark:text-gray-100  transition-transform duration-200 ${
             isOpen ? "transform rotate-180" : ""
           }`}
         >
@@ -32,8 +32,8 @@ const Item = ({ title, children }) => {
         </svg>
       </button>
       {isOpen && (
-        <div className="p-4 pt-0">
-          <p className="text-gray-700">{children}</p>
+        <div className="p-4 pt-0 bg-[#f7f7f74a] dark:bg-[#70707084]">
+          <p className="text-black dark:text-white">{children}</p>
         </div>
       )}
     </div>
@@ -49,7 +49,7 @@ const AfterSchoolFaq = () => {
         <div className="max-w-xl sm:mx-auto lg:max-w-5xl">
           <div className="space-y-6">
             <Item title="Edgevana – AMD 7313 - 7313-256G-10G">
-              <div className="grid grid-cols-2 gap-2">
+              <div className="grid grid-cols-2 gap-2 p-4">
                 <p>CPU</p>
                 <p className="font-normal">AMD 7313 EPYC</p>
                 <p>Cores</p>

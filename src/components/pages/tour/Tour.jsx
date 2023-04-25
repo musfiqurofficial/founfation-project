@@ -6,7 +6,7 @@ const Tour = () => {
   return (
     <div>
       <TourHero />
-      <div className="bg-[#ffffffe7]">
+      <div className="bg-[#ffffffe7] dark:bg-black">
         <TourText />
         <TourStep />
       </div>

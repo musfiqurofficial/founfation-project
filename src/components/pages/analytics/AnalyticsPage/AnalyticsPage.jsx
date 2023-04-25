@@ -13,7 +13,7 @@ const AnalyticsPage = () => {
         <div>
           <div className="h-[4800px] bg-gray-400 w-[1px]"></div>
         </div>
-        <div className="bg-white p-10">
+        <div className="p-10">
           <Guidelines></Guidelines>
           <hr className="max-w-screen-lg mx-auto my-8 border-t border-gray-200" />
 

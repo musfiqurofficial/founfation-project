@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div>
       <AboutHero />
-      <div className=" bg-[#ffffffe7]">
+      <div className=" bg-[#ffffffe7] dark:bg-black">
         <AboutCensorship />
         <hr className=" max-w-screen-lg mx-auto border-t border-gray-200" />
         <AboutCore />

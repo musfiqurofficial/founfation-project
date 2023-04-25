@@ -1,11 +1,25 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import LogoDark from "../../assets/solana_foundation_logo_dark_full.2bf56950 (1).svg";
 import Logo from "../../assets/solana_foundation_dark_letters_only.d4426ab4.svg";
 import LogoIcon from "../../assets/solana_foundation_colored_logo_only.124d9acc.svg";
 import { CiLight, CiDark } from "react-icons/ci";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    if (isDarkMode) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [isDarkMode]);
+
+  const handleToggleClick = () => {
+    setIsDarkMode(!isDarkMode);
+  };
 
   let activeStyle = {
     color: "#444bcb",
@@ -70,10 +84,13 @@ const Navbar = () => {
       </li>
       <li className="flex justify-center items-center gap-2">
         <button>
-          <CiLight className="hover:fill-[#444bcb] w-5 h-5" />
+          
         </button>
-        <button>
-          <CiDark className="hover:fill-[#444bcb] w-5 h-5" />
+        <button >
+          
+        </button>
+        <button onClick={handleToggleClick}>
+          {isDarkMode ? <CiLight className="hover:fill-[#444bcb] w-5 h-5" /> : <CiDark className="hover:fill-[#444bcb] w-5 h-5" />}
         </button>
       </li>
     </>
@@ -83,10 +100,12 @@ const Navbar = () => {
     <div className="">
       <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between">
-          <NavLink to="/" className="flex justify-center items-center gap-2">
+          {isDarkMode  ? <NavLink to="/" className="flex justify-center items-center gap-2">
+            <img className="" src={LogoDark} alt="" />
+          </NavLink> : <NavLink to="/" className="flex justify-center items-center gap-2">
             <img className="" src={LogoIcon} alt="" />
             <img className="" src={Logo} alt="" />
-          </NavLink>
+          </NavLink>}
           <ul className="items-center hidden font-[500] lg:flex">{menuItem}</ul>
           <div className="lg:hidden">
             <button

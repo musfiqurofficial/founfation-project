@@ -9,7 +9,7 @@ const DelegationProgram = () => {
   return (
     <div>
       <DelegationHero />
-      <div className="bg-[#ffffffe7]">
+      <div className="bg-[#ffffffe7] dark:bg-black">
         <DelegationText />
         <Delegationstap />
         <DelegationStay />

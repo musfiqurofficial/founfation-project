@@ -5,7 +5,7 @@ const Faq = () => {
   return (
     <div>
       <FaqHero></FaqHero>
-      <div className="bg-[#ffffffe7]">
+      <div className="bg-[#ffffffe7] dark:bg-black">
         <FaqBody></FaqBody>
       </div>
     </div>

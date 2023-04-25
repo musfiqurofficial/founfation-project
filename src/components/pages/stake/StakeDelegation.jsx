@@ -60,7 +60,7 @@ const StakeDelegation = () => {
   const menu = (
     <>
       <li
-        className="hover:text-[#444bcb] text-xs sm:text-xl font-semibold "
+        className="hover:text-[#444bcb]  text-xs sm:text-xl font-semibold "
         onClick={() => handleMenuClick(true)}
       >
         Delegation strategy
@@ -77,15 +77,15 @@ const StakeDelegation = () => {
   return (
     <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0">
       <div className="py-16 lg:py-20 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl">
-        <div>
+        <div >
           <ul className="flex item-center justify-center gap-5">{menu}</ul>
           <div className="grid sm:grid-cols-2 gap-x-8 gap-y-14 mt-10">
-            <div>
+            <div className="">
               <div className="bg-[#0e0d0d] p-3 rounded-md mb-2">
                 <img className="w-3/4 mx-auto" src={Daopool} alt="" />
               </div>
               {showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="Delegation strategy">
                     MonkeDAO's delegation strategy for DAOPool looks first at
                     helping DAO’s and community focused projects breakeven on
@@ -106,7 +106,7 @@ const StakeDelegation = () => {
                 </div>
               ) : null}
               {!showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="How to get a delegation">
                     MonkeDAO is inviting teams and projects looking to run
                     validators to come and speak with them either on Discord
@@ -131,7 +131,7 @@ const StakeDelegation = () => {
                 <img className="w-16 mx-auto" src={Jpool} alt="" />
               </div>
               {showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="Delegation strategy">
                     JPool uses a smart strategy that selects top-performance
                     validators to ensure maximum APY for the pool’s delegators,
@@ -148,7 +148,7 @@ const StakeDelegation = () => {
                 </div>
               ) : null}
               {!showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="How to get a delegation">
                     Validators are added to the pool based on its smart strategy
                     as the pool’s total stake grows. Validators may submit their
@@ -166,7 +166,7 @@ const StakeDelegation = () => {
                 <img className="w-1/2 mx-auto" src={Lido} alt="" />
               </div>
               {showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="Delegation strategy">
                     Lido delegates all SOL staked to its pool evenly among the
                     validators in the Lido stake pool.
@@ -174,7 +174,7 @@ const StakeDelegation = () => {
                 </div>
               ) : null}
               {!showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="How to get a delegation">
                     Lido’s procedure is outlined in the validator admission
                     process here and also copied below: "Lido maintains a set of
@@ -207,7 +207,7 @@ const StakeDelegation = () => {
                 <img className="w-5/6 mx-auto" src={Marinade} alt="" />
               </div>
               {showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="Delegation strategy">
                     Marinade uses open-source code to compute a “score” awarded
                     to validators based on performance, commission and
@@ -226,7 +226,7 @@ const StakeDelegation = () => {
                 </div>
               ) : null}
               {!showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="How to get a delegation">
                     First, join the #validators channel in Marinade's Discord
                     (ask in #support to be added). There are several validator
@@ -244,7 +244,7 @@ const StakeDelegation = () => {
                 <img className="w-1/2 mx-auto" src={socean} alt="" />
               </div>
               {showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="Delegation strategy">
                     Socean allocates its funds via a transparent and principled
                     delegation strategy. They delegate funds to validators that
@@ -264,7 +264,7 @@ const StakeDelegation = () => {
                 </div>
               ) : null}
               {!showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="How to get a delegation">
                     Socean is constantly collecting validator statistics from
                     on-chain. Validators will be automatically considered if
@@ -285,7 +285,7 @@ const StakeDelegation = () => {
                 <img className="w-5/6 mx-auto" src={EverSOL} alt="" />
               </div>
               {showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="Delegation strategy">
                     Socean allocates its funds via a transparent and principled
                     delegation strategy. They delegate funds to validators that
@@ -305,7 +305,7 @@ const StakeDelegation = () => {
                 </div>
               ) : null}
               {!showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="How to get a delegation">
                     A validator can join the EverSOL pool if it demonstrates
                     great performance and does not belong to the super-minority
@@ -324,7 +324,7 @@ const StakeDelegation = () => {
                 <img className="w-5/6 mx-auto" src={Blaze} alt="" />
               </div>
               {showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="Delegation strategy">
                     BlazeStake aims to strike the right balance between
                     high-rewarding validators, high-scoring validators, and
@@ -339,7 +339,7 @@ const StakeDelegation = () => {
                 </div>
               ) : null}
               {!showHello ? (
-                <div>
+                <div className="dark:bg-[#fff] dark:text-[#000]">
                   <Item title="How to get a delegation">
                     Details for how validators can apply to the stake pool can
                     be found on the join page. The pool is open to any validator

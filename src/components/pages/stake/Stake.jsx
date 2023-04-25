@@ -6,7 +6,7 @@ const Stake = () => {
   return (
     <div>
       <StakeHero />
-      <div className=" bg-[#ffffffe7]">
+      <div className=" bg-[#ffffffe7] dark:bg-black">
         <StakePromotes />
         <StakeDelegation />
       </div>
